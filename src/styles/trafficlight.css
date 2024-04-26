@@ -1,5 +1,7 @@
 .container{
-
+    display: flex;
+    flex-direction: column;
+    place-items: center;
 }
 .semaforo{
     display: flex;
@@ -14,11 +16,11 @@
     padding-bottom: 5px;
     gap: 1rem;
 }
-.luces-circulo{
+.luces-semaforo{
     display: flex;
     justify-content: center;
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     background-color: blue;
     gap: 10px;
